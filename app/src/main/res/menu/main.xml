@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+
+    <item android:title="main"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:icon="@drawable/ic_round_sports_handball_24"
+                android:id="@+id/title1"
+                android:orderInCategory="100"
+                android:title="Fourcade"
+                app:showAsAction="never"
+                >
+
+            </item>
+
+            <item
+                android:icon="@drawable/ic_round_verified_24"
+                android:id="@+id/title2"
+                android:orderInCategory="100"
+                android:title="Fourcade"
+                app:showAsAction="never"
+                >
+
+            </item>
+        </menu>
+
+
+
+    </item>
+</menu>
